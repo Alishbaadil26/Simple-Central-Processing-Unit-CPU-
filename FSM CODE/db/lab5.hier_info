@@ -1,0 +1,35 @@
+|lab5
+clk => x_last.CLK
+clk => x_curr.CLK
+clk => x_meta.CLK
+clk => ysfm~50.DATAIN
+data_in => ysfm~1.DATAB
+data_in => ysfm~11.DATAB
+data_in => ysfm~14.DATAB
+data_in => ysfm~16.DATAB
+data_in => ysfm~18.DATAB
+data_in => ysfm~20.DATAB
+data_in => ysfm~22.DATAB
+data_in => ysfm~24.DATAB
+data_in => ysfm~25.DATAB
+data_in => x_meta.DATAIN
+data_in => ysfm~0.DATAB
+data_in => ysfm~10.DATAB
+data_in => ysfm~13.DATAB
+data_in => ysfm~15.DATAB
+data_in => ysfm~17.DATAB
+data_in => ysfm~19.DATAB
+data_in => ysfm~21.DATAB
+data_in => ysfm~23.DATAB
+data_in => ysfm~26.DATAB
+reset => ysfm~54.DATAIN
+student_id[0] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+student_id[1] <= student_id~1.DB_MAX_OUTPUT_PORT_TYPE
+student_id[2] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+student_id[3] <= student_id[3]~0.DB_MAX_OUTPUT_PORT_TYPE
+current_state[0] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+current_state[1] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+current_state[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+current_state[3] <= current_state[3]~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

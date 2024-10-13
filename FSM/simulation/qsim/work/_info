@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\alish\OneDrive\Desktop\COE 328\Lab 6\FSM\simulation\qsim
+vlab5Combined
+Z1 !s100 V8oBNkU`VG:llJ]HKV2dA0
+Z2 IZ12@iaV>N522GL054Qa1H1
+Z3 VaIR7SYjA:_[gc8MC3?[8l0
+Z4 dC:\Users\alish\OneDrive\Desktop\COE 328\Lab 6\FSM\simulation\qsim
+Z5 w1700752153
+Z6 8lab5Combined.vo
+Z7 Flab5Combined.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|lab5Combined.vo|
+Z10 o-work work -O0
+Z11 nlab5@combined
+!i10b 1
+!s85 0
+Z12 !s108 1700752154.206000
+Z13 !s107 lab5Combined.vo|
+!s101 -O0
+vlab5Combined_vlg_check_tst
+!i10b 1
+!s100 1<1_DlScUi>Z7aW^^do^R2
+IMZF]UL5_`=mBj2cAGZZ`P2
+Z14 V99`1Mk?B46N6AD<M]bkHz1
+R4
+Z15 w1700752152
+Z16 8lab5Combined.vt
+Z17 Flab5Combined.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z18 !s108 1700752154.327000
+Z19 !s107 lab5Combined.vt|
+Z20 !s90 -work|work|lab5Combined.vt|
+!s101 -O0
+R10
+Z21 nlab5@combined_vlg_check_tst
+vlab5Combined_vlg_sample_tst
+!i10b 1
+Z22 !s100 7DYG8L=1ZfaQgZfS>LHJ_1
+Z23 IE:K55AN0jg9fHPo]bCiZ93
+Z24 V=10O3W;acHN7c_EzZl:Gd2
+R4
+R15
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z25 nlab5@combined_vlg_sample_tst
+vlab5Combined_vlg_vec_tst
+!i10b 1
+!s100 a9a<4<LgOHWDM0Ma1OF=I2
+I<CIUn>6c51iVCFJFF4FI71
+Z26 V<AD[^]M[8Okjl[cZE5b1b2
+R4
+R15
+R16
+R17
+L0 413
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z27 nlab5@combined_vlg_vec_tst

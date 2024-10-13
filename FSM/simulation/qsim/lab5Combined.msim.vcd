@@ -1,0 +1,241 @@
+$comment
+	File created using the following command:
+		vcd file lab5Combined.msim.vcd -direction
+$end
+$date
+	Thu Nov 23 10:09:14 2023
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module lab5Combined_vlg_vec_tst $end
+$var reg 1 ! clock $end
+$var reg 1 " data_in $end
+$var reg 1 # reset $end
+$var wire 1 $ current_State [6] $end
+$var wire 1 % current_State [5] $end
+$var wire 1 & current_State [4] $end
+$var wire 1 ' current_State [3] $end
+$var wire 1 ( current_State [2] $end
+$var wire 1 ) current_State [1] $end
+$var wire 1 * current_State [0] $end
+$var wire 1 + std_ID [6] $end
+$var wire 1 , std_ID [5] $end
+$var wire 1 - std_ID [4] $end
+$var wire 1 . std_ID [3] $end
+$var wire 1 / std_ID [2] $end
+$var wire 1 0 std_ID [1] $end
+$var wire 1 1 std_ID [0] $end
+$var wire 1 2 sampler $end
+$scope module i1 $end
+$var wire 1 3 gnd $end
+$var wire 1 4 vcc $end
+$var wire 1 5 unknown $end
+$var tri1 1 6 devclrn $end
+$var tri1 1 7 devpor $end
+$var tri1 1 8 devoe $end
+$var wire 1 9 clock~combout $end
+$var wire 1 : clock~clkctrl_outclk $end
+$var wire 1 ; reset~combout $end
+$var wire 1 < data_in~combout $end
+$var wire 1 = inst|x_meta~regout $end
+$var wire 1 > inst|x_curr~feeder_combout $end
+$var wire 1 ? inst|x_curr~regout $end
+$var wire 1 @ inst|x_last~regout $end
+$var wire 1 A inst|Selector2~0_combout $end
+$var wire 1 B inst|ysfm.s2~regout $end
+$var wire 1 C inst|ysfm.s1~regout $end
+$var wire 1 D inst|ysfm.s0~0_combout $end
+$var wire 1 E inst|ysfm.s0~regout $end
+$var wire 1 F inst|ysfm.s8~0_combout $end
+$var wire 1 G inst|ysfm.s8~regout $end
+$var wire 1 H inst|ysfm.s7~regout $end
+$var wire 1 I inst|ysfm.s6~regout $end
+$var wire 1 J inst|ysfm.s5~regout $end
+$var wire 1 K inst|ysfm.s4~regout $end
+$var wire 1 L inst|ysfm.s3~regout $end
+$var wire 1 M inst|WideOr5~0_combout $end
+$var wire 1 N inst|WideOr4~0_combout $end
+$var wire 1 O inst|WideOr3~0_combout $end
+$var wire 1 P inst2|Mux0~0_combout $end
+$var wire 1 Q inst2|Mux1~0_combout $end
+$var wire 1 R inst2|Mux2~0_combout $end
+$var wire 1 S inst2|Mux3~0_combout $end
+$var wire 1 T inst2|Mux4~0_combout $end
+$var wire 1 U inst2|Mux5~0_combout $end
+$var wire 1 V inst2|Mux6~0_combout $end
+$var wire 1 W inst|WideOr0~combout $end
+$var wire 1 X inst1|Mux0~4_combout $end
+$var wire 1 Y inst|WideOr2~combout $end
+$var wire 1 Z inst|WideOr1~combout $end
+$var wire 1 [ inst1|Mux1~0_combout $end
+$var wire 1 \ inst1|Mux2~0_combout $end
+$var wire 1 ] inst1|Mux3~0_combout $end
+$var wire 1 ^ inst1|Mux5~0_combout $end
+$var wire 1 _ inst1|Mux6~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+0#
+1*
+0)
+0(
+0'
+0&
+0%
+0$
+01
+00
+1/
+0.
+0-
+1,
+0+
+x2
+03
+14
+x5
+16
+17
+18
+09
+0:
+0;
+1<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+1D
+0E
+1F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+1W
+0X
+1Y
+0Z
+1[
+0\
+0]
+0^
+1_
+$end
+#10000
+1!
+19
+1:
+02
+1=
+1>
+#20000
+0!
+09
+0:
+12
+#30000
+1!
+19
+1:
+02
+1?
+1A
+#40000
+0!
+09
+0:
+12
+#50000
+1!
+19
+1:
+02
+1G
+1E
+1@
+1V
+0Y
+0W
+0F
+0A
+0_
+0[
+0/
+0*
+0,
+11
+#60000
+0!
+09
+0:
+12
+#70000
+1!
+19
+1:
+02
+#80000
+0!
+09
+0:
+12
+#90000
+1!
+19
+1:
+02
+#100000
+0!
+09
+0:
+12
+#110000
+1!
+19
+1:
+02
+#120000
+0!
+09
+0:
+12
+#130000
+1!
+19
+1:
+02
+#140000
+0!
+09
+0:
+12
+#150000
+1!
+19
+1:
+02
+#160000

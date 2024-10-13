@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\alish\OneDrive\Desktop\COE 328\Lab 6\Decode\simulation\qsim
+vdecod
+Z1 !s100 zBIBZ6nG6b<ZG01_YAVd22
+Z2 I0=RV;<^2835@d=[bfKYdl0
+Z3 V_Hn;>Ni<i3Yg<;_OjIL8J3
+Z4 dC:\Users\alish\OneDrive\Desktop\COE 328\Lab 6\Decode\simulation\qsim
+Z5 w1700755802
+Z6 8decod.vo
+Z7 Fdecod.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|decod.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1700755803.653000
+Z12 !s107 decod.vo|
+!s101 -O0
+vdecod_vlg_check_tst
+!i10b 1
+!s100 UAOIV@TdJ;3aFinOFS20<2
+Iih8bGm@O=o57KR>RH8Pim3
+Z13 Ve7HRE19k80gz5WkE9?KEO3
+R4
+Z14 w1700755801
+Z15 8decod.vt
+Z16 Fdecod.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z17 !s108 1700755803.765000
+Z18 !s107 decod.vt|
+Z19 !s90 -work|work|decod.vt|
+!s101 -O0
+R10
+vdecod_vlg_sample_tst
+!i10b 1
+Z20 !s100 7UOlXfml3;VJ9af[z3=gf3
+Z21 IUV[zL`S=i_@C6:On433nD2
+Z22 VX_Jb2]LdT3@lQ9kY[^f5O1
+R4
+R14
+R15
+R16
+L0 29
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10
+vdecod_vlg_vec_tst
+!i10b 1
+!s100 BaY0_za^dJ^J<D7[dUD3g1
+IImP9QBLUKMXaXi]7UgD?>2
+Z23 V2ALXGij_Uj8`l4j]Pj^W:0
+R4
+R14
+R15
+R16
+L0 459
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10

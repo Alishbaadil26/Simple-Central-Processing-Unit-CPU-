@@ -1,0 +1,301 @@
+$comment
+	File created using the following command:
+		vcd file ALU3.msim.vcd -direction
+$end
+$date
+	Fri Dec 01 14:43:40 2023
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module ALU3_vlg_vec_tst $end
+$var reg 8 ! A [7:0] $end
+$var reg 8 " B [7:0] $end
+$var reg 1 # Clock $end
+$var reg 16 $ OP [15:0] $end
+$var reg 4 % student_ID [3:0] $end
+$var wire 1 & Neg $end
+$var wire 1 ' R [3] $end
+$var wire 1 ( R [2] $end
+$var wire 1 ) R [1] $end
+$var wire 1 * R [0] $end
+$var wire 1 + sampler $end
+$scope module i1 $end
+$var wire 1 , gnd $end
+$var wire 1 - vcc $end
+$var wire 1 . unknown $end
+$var tri1 1 / devclrn $end
+$var tri1 1 0 devpor $end
+$var tri1 1 1 devoe $end
+$var wire 1 2 process_0~1_combout $end
+$var wire 1 3 process_0~3_combout $end
+$var wire 1 4 process_0~4_combout $end
+$var wire 1 5 Equal2~2_combout $end
+$var wire 1 6 WideNor0~0_combout $end
+$var wire 1 7 WideNor0~1_combout $end
+$var wire 1 8 WideNor0~2_combout $end
+$var wire 1 9 Result[0]~0_combout $end
+$var wire 1 : Clock~combout $end
+$var wire 1 ; process_0~0_combout $end
+$var wire 1 < process_0~2_combout $end
+$var wire 1 = Equal2~0_combout $end
+$var wire 1 > Equal2~1_combout $end
+$var wire 1 ? Equal2~3_combout $end
+$var wire 1 @ Equal2~4_combout $end
+$var wire 1 A WideNor0~3_combout $end
+$var wire 1 B WideNor0~4_combout $end
+$var wire 1 C Result[0]~1_combout $end
+$var wire 1 D A~combout [7] $end
+$var wire 1 E A~combout [6] $end
+$var wire 1 F A~combout [5] $end
+$var wire 1 G A~combout [4] $end
+$var wire 1 H A~combout [3] $end
+$var wire 1 I A~combout [2] $end
+$var wire 1 J A~combout [1] $end
+$var wire 1 K A~combout [0] $end
+$var wire 1 L student_ID~combout [3] $end
+$var wire 1 M student_ID~combout [2] $end
+$var wire 1 N student_ID~combout [1] $end
+$var wire 1 O student_ID~combout [0] $end
+$var wire 1 P Result [3] $end
+$var wire 1 Q Result [2] $end
+$var wire 1 R Result [1] $end
+$var wire 1 S Result [0] $end
+$var wire 1 T OP~combout [15] $end
+$var wire 1 U OP~combout [14] $end
+$var wire 1 V OP~combout [13] $end
+$var wire 1 W OP~combout [12] $end
+$var wire 1 X OP~combout [11] $end
+$var wire 1 Y OP~combout [10] $end
+$var wire 1 Z OP~combout [9] $end
+$var wire 1 [ OP~combout [8] $end
+$var wire 1 \ OP~combout [7] $end
+$var wire 1 ] OP~combout [6] $end
+$var wire 1 ^ OP~combout [5] $end
+$var wire 1 _ OP~combout [4] $end
+$var wire 1 ` OP~combout [3] $end
+$var wire 1 a OP~combout [2] $end
+$var wire 1 b OP~combout [1] $end
+$var wire 1 c OP~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1000 !
+b0 "
+0#
+b0 $
+b0 %
+1&
+0*
+0)
+0(
+0'
+x+
+0,
+1-
+x.
+1/
+10
+11
+02
+03
+04
+15
+06
+07
+08
+19
+0:
+0;
+0<
+1=
+1>
+1?
+1@
+0A
+0B
+0C
+0K
+0J
+0I
+1H
+0G
+0F
+0E
+0D
+0O
+0N
+0M
+0L
+0S
+zR
+zQ
+zP
+0c
+0b
+0a
+0`
+0_
+0^
+0]
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+0U
+0T
+$end
+#5000
+1#
+1:
+0+
+#10000
+b1 $
+0#
+1c
+0:
+1+
+0?
+16
+0@
+17
+18
+1B
+1C
+#15000
+1#
+1:
+0+
+1S
+1*
+#20000
+b11 $
+b10 $
+0#
+0c
+1b
+0:
+1+
+1?
+06
+1A
+05
+1@
+07
+08
+#25000
+1#
+1:
+0+
+#30000
+b110 $
+b100 $
+0#
+0b
+1a
+0:
+1+
+0A
+15
+0B
+17
+18
+1B
+#35000
+1#
+1:
+0+
+#40000
+b1100 $
+b1000 $
+0#
+0a
+1`
+0:
+1+
+07
+1A
+05
+08
+#45000
+1#
+1:
+0+
+#50000
+b11000 $
+b10000 $
+0#
+0`
+1_
+0:
+1+
+#55000
+1#
+1:
+0+
+#60000
+b110000 $
+b100000 $
+0#
+0_
+1^
+0:
+1+
+#65000
+1#
+1:
+0+
+#70000
+b1100000 $
+b1000000 $
+0#
+0^
+1]
+0:
+1+
+0A
+15
+0?
+16
+0B
+0@
+17
+18
+1B
+#75000
+1#
+1:
+0+
+#80000
+b11000000 $
+b10000000 $
+0#
+0]
+1\
+0:
+1+
+#85000
+1#
+1:
+0+
+#90000
+b110000000 $
+b100000000 $
+0#
+0\
+1[
+0:
+1+
+#95000
+1#
+1:
+0+
+#100000

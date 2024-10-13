@@ -1,0 +1,12 @@
+
+State Machine - |lab5Combined|lab5:inst|ysfm
+Name ysfm.s8 ysfm.s7 ysfm.s6 ysfm.s5 ysfm.s4 ysfm.s3 ysfm.s2 ysfm.s1 ysfm.s0 
+ysfm.s0 0 0 0 0 0 0 0 0 0 
+ysfm.s1 0 0 0 0 0 0 0 1 1 
+ysfm.s2 0 0 0 0 0 0 1 0 1 
+ysfm.s3 0 0 0 0 0 1 0 0 1 
+ysfm.s4 0 0 0 0 1 0 0 0 1 
+ysfm.s5 0 0 0 1 0 0 0 0 1 
+ysfm.s6 0 0 1 0 0 0 0 0 1 
+ysfm.s7 0 1 0 0 0 0 0 0 1 
+ysfm.s8 1 0 0 0 0 0 0 0 1 
